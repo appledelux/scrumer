@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('bulma/css/bulma.css');
+:root {
+  --civica-bg: #F07F00;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+}
+
+
+// input {
+//   border: 0px;
+//   width: auto;
+//   height: 35px;
+//   outline-color: #F07F00;
+//   color: #fff;
+//   font-weight: bold;
+//   padding-left: 5px;
+//   font-size: 1.25rem;
+//   background-color: inherit;
+//   border-radius: 4px solid #fff;
+// }
+
+// input[type=date] {
+//   height: 35px;
+//   margin: 0 auto;
+//   width: 100%;
+//   font-family: arial, sans-serif;
+//   text-transform: uppercase;
+//   outline: none;
+//   border: 0;
+//   border-radius: 3px;
+//   color: #fff;
+// }
+
+// input[type=date]::-webkit-datetime-edit-month-field {
+//   color: #fff;
+// }
+
+// input[type=date]::-webkit-datetime-edit-day-field {
+//   color: #fff;
+// }
+
+// input[type=date]::-webkit-datetime-edit-year-field {
+//   color: #fff;
+// }
+
+// input[type=date]::-webkit-datetime-edit-day-field:focus {
+//   background-color: inherit;
+// }
+
+// input[type=date]::-webkit-datetime-edit-month-field:focus {
+//   background-color: inherit;
+// }
+
+
+// input[type=date]::-webkit-datetime-edit-year-field:focus {
+//   background-color: inherit;
+// }
+
+// input[type=date]::-webkit-clear-button {
+//   display: none;
+// }
+
+// input[type=date]::-webkit-inner-spin-button {
+//   display: none;
+// }
+
+// input[type=date]::-webkit-calendar-picker-indicator {
+//   opacity: 0;
+//   /* background: url('./assets/icons/i_calendar.svg')  97% 50% no-repeat; */
+
+// }
+
+// input[type=date]::-webkit-calendar-picker-indicator:hover {
+//   background-color: #000;
+//   color: #e6e6e6;
+//   cursor: pointer;
+// }
+
+// input[type=date]::-webkit-calendar-picker-indicator:active {
+//   color: var(--civica-bg);
+// }
+
+
+// label {
+//   font-size: 0.75rem;
+//   margin-bottom: 2px;
+// }
+
+.i-calendar {
+  // background: url("./assets/icons/i_calendar.svg");
+}
+

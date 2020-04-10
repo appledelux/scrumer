@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  height: 70px;
+  background-color: var(--civica-bg);
+}
+
+.header img {
+  height: 50%;
+  align-self: center;
+  margin: 0 10px;
+}
+
+@media (max-width: 40rem) {
+  .header {
+  }
+}

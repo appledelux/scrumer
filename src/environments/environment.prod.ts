@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  JIRA_API: 'https://civica.atlassian.net/rest'
 };

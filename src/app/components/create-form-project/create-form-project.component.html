@@ -1,0 +1,45 @@
+<form [formGroup]="projectForm" (ngSubmit)="sendForm($event)">
+  <div class="field">
+    <label class="label">Nombre</label>
+    <div class="control">
+      <input class="input" type="text" formControlName="name" placeholder="Nombre de proyecto">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Descripción</label>
+    <div class="control">
+      <input class="input" type="text" formControlName="description" placeholder="Descripción de proyecto">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Alcance</label>
+    <div class="control">
+      <textarea class="textarea" formControlName="scope" placeholder="Alcance"></textarea>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Inicio</label>
+    <div class="control">
+      <input class="input" formControlName="startDate" type="date" />
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Previsión Fin</label>
+    <div class="control">
+      <input class="input" formControlName="prevEndDate" type="date" />
+    </div>
+  </div>
+
+  <div class="field is-grouped is-grouped-centered">
+    <p class="control">
+      <button type="submit" class="button is-primary">
+        Crear
+      </button>
+    </p>
+    <p class="control">
+      <button class="button is-light">
+        Cancelar
+      </button>
+    </p>
+  </div>
+</form>
